@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: #ffc0cb; /* Baby Pink */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px; /* Adjusted width */
+    position: relative;
+}
+
+.top-line,
+.bottom-line {
+    height: 2px;
+    background-color: #000; /* Black */
+    position: absolute;
+    left: 15px; /* 15 pixels from the left */
+    right: 15px; /* 15 pixels from the right */
+}
+
+.top-line {
+    top: 15px; /* 15 pixels from the top */
+    width: calc(100% - 30px); /* Adjusted width */
+}
+
+.bottom-line {
+    bottom: 15px; /* 15 pixels from the bottom */
+    width: calc(100% - 30px); /* Adjusted width */
+}
+
+.info-box {
+    text-align: center;
+}
+
+.text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.text p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #666;
+}
+
+.purple-box {
+    border: 2px solid #8763d4; 
+    background-color: #d8bfd8; 
+    padding: 4px;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.card.baby-pink {
+    background-color: #ffc0cb; /* Baby Pink */
+}
+
+.card.baby-blue {
+    background-color: #c3e6fa; /* Baby Blue */
+}
+
+.color-button {
+    background-color: #8763d4; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -109,14 +109,14 @@ body {
   
 /* Style the front side */
 .flip-card-front {
-    background-color: dodgerblue;
+    background-color: #ffc0cb;;
     color: white;
     
   }
 
   /* Style the back side (fallback if image is missing) */
   .flip-card-back {
-    background-color: #bbb;
+    background-color: #c3e6fa;
     color: black;
     transform: rotateY(180deg);
   }

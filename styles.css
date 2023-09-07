@@ -79,10 +79,18 @@ body {
 }
 
 .flip-card {
-    background-color: transparent;
+    /* background-color: transparent;
     width: 600px;
     height: 300px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #f1f1f1; */
+
+    background-color: #c3e6fa; /* Baby Blue */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px; /* Adjusted width */
+    position: relative;
+
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   

@@ -65,6 +65,8 @@ body {
 
 .info-box {
     text-align: center;
+    justify-content: center;
+    align-items: center;
     height: 280px;
     width: 550px;
     top: 40px;
@@ -109,6 +111,8 @@ body {
 .purple-box {
     border: 2px solid #8763d4; 
     background-color: #d8bfd8; 
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 4px;
     margin: 10px 0;

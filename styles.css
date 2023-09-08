@@ -33,9 +33,9 @@ body {
     transform-style: preserve-3d;
   }
   
-  .flip-card:hover .flip-card-inner {
+  /* .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
+  } */
   
   .flip-card-front, .flip-card-back {
     position: relative;
@@ -100,10 +100,12 @@ body {
 
 .card.baby-pink {
     background-color: #ffc0cb; /* Baby Pink */
+    transform: rotateY(180deg);
 }
 
 .card.baby-blue {
     background-color: #c3e6fa; /* Baby Blue */
+    transform: rotateY(180deg);
 }
 
 .purple-box {

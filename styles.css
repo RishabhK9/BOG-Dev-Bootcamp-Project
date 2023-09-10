@@ -61,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
-    left: 10%;
+    left: 20%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 4px;
@@ -79,7 +79,7 @@ body {
 }
 
 .top-line {
-    top: -5%;
+    top: 5%;
     width: calc(100% - 50px);
 }
 

@@ -45,7 +45,7 @@ body {
         transform: rotateY(180deg);
     }
 
-        .flipCard {
-            transform: rotateY(180deg);
-        }
+    .flipCard {
+        transform: rotateY(180deg);
+    }
   

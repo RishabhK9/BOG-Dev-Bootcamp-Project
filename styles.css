@@ -27,8 +27,8 @@ body {
     position: relative;
     width: 600px;
     height: 100%;
-    right: 20px;
-    left: 20px;
+    /* right: 20px;
+    left: 20px; */
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;

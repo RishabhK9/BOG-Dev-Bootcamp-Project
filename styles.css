@@ -76,13 +76,13 @@ body {
 }
 
 .top-line {
-    top: -30px; /* 15 pixels from the top */
-    width: calc(100% - 30px); /* Adjusted width */
+    top: -10%; /* 15 pixels from the top */
+    width: calc(100% - 50px); /* Adjusted width */
 }
 
 .bottom-line {
-    bottom: -30px; /* 15 pixels from the bottom */
-    width: calc(100% - 30px); /* Adjusted width */
+    bottom: -10%; /* 15 pixels from the bottom */
+    width: calc(100% - 50px); /* Adjusted width */
 }
 
 .text h1 {

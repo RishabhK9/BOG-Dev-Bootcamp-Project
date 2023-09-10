@@ -50,7 +50,7 @@ body {
 .bottom-line {
     height: 2px;
     background-color: #000; /* Black */
-    position: absolute;
+    position: relative;
     left: 15px; /* 15 pixels from the left */
     right: 15px; /* 15 pixels from the right */
 }

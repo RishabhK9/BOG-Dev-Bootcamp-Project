@@ -84,19 +84,6 @@ body {
     font-size: 15px;
     color: #666;
 }
-  
-/* Style the front side */
-.flip-card-front {
-    background-color: #ffc0cb;;
-    color: white;
-  }
-
-/* Style the back side (fallback if image is missing) */
-.flip-card-back {
-    background-color: #c3e6fa;
-    color: black;
-    transform: rotateY(180deg);
-}
 
 .purple-box {
     border: 2px solid #8763d4; 
@@ -107,15 +94,6 @@ body {
     padding: 4px;
     margin: 10px 0;
     font-size: 13px;
-}
-
-.color-button {
-    background-color: #8763d4; 
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .card.baby-pink {
@@ -171,6 +149,7 @@ body {
     font-weight: bold;
     font-size: 40px;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Safari */
   }
   
   .card__face--front {

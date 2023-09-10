@@ -76,12 +76,12 @@ body {
 }
 
 .top-line {
-    top: -15px; /* 15 pixels from the top */
+    top: -30px; /* 15 pixels from the top */
     width: calc(100% - 30px); /* Adjusted width */
 }
 
 .bottom-line {
-    bottom: 10%; /* 15 pixels from the bottom */
+    bottom: -30px; /* 15 pixels from the bottom */
     width: calc(100% - 30px); /* Adjusted width */
 }
 

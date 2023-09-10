@@ -2,12 +2,12 @@
 
 const card = document.getElementById('card');
 
+card.addEventListener('click', handleFlip);
 
 function handleFlip(){
-    card.classList.toggle('is-flipped');
+    card.classList.toggle('flipCard');
 }
 
-card.addEventListener('click', handleFlip);
 
 // [...cards].forEach((card)=>{
 //   card.addEventListener( 'click', function() {

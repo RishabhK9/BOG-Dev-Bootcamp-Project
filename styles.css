@@ -104,24 +104,17 @@ body {
 
 
 
-
 .scene {
     display: inline-block;
+    width: 200px;
+    height: 260px;
+  /*   border: 1px solid #CCC; */
     margin: 40px 0;
     perspective: 600px;
-    height: 300px;
-    width: 600px; /* Adjusted width */
-    position: relative;
-
   }
   
   .card {
     position: relative;
-    background-color: #c3e6fa; /* Baby Blue */
-    border: 1px solid #f1f1f1;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -138,12 +131,12 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    line-height: 300px;
+    line-height: 260px;
     color: white;
     text-align: center;
     font-weight: bold;
+    font-size: 40px;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden; /* Safari */
   }
   
   .card__face--front {
@@ -154,3 +147,4 @@ body {
     background: slateblue;
     transform: rotateY(180deg);
   }
+  

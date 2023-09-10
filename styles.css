@@ -24,6 +24,7 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.8s ease;
+    cursor: pointer;
 }
 
     .front {
@@ -100,15 +101,5 @@ body {
     padding: 4px;
     margin: 10px 0;
     font-size: 13px;
-}
-
-.card.baby-pink {
-    background-color: #ffc0cb; /* Baby Pink */
-    transform: rotateY(180deg);
-}
-
-.card.baby-blue {
-    background-color: #c3e6fa; /* Baby Blue */
-    transform: rotateY(180deg);
 }
   

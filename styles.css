@@ -61,6 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
+    left: 10%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 4px;
@@ -73,8 +74,8 @@ body {
     height: 2px;
     background-color: #000;
     position: relative;
-    left: 10%;
-    right: 10%;
+    left: 15px;
+    right: 15px;
 }
 
 .top-line {

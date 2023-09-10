@@ -27,8 +27,6 @@ body {
     position: relative;
     width: 600px;
     height: 100%;
-    /* right: 20px;
-    left: 20px; */
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -70,9 +68,9 @@ body {
     justify-content: center;
     align-items: center;
     left: 10px;
-    height: 250px;
+    height: 200px;
     width: 550px;
-    top: 80px;
+    top: 100px;
 }
 
 .text h1 {

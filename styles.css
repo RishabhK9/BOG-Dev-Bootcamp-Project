@@ -77,12 +77,12 @@ body {
 }
 
 .top-line {
-    top: -10%; /* 15 pixels from the top */
+    top: -5%; /* 15 pixels from the top */
     width: calc(100% - 50px); /* Adjusted width */
 }
 
 .bottom-line {
-    bottom: -10%; /* 15 pixels from the bottom */
+    bottom: -15%; /* 15 pixels from the bottom */
     width: calc(100% - 50px); /* Adjusted width */
 }
 
@@ -94,7 +94,7 @@ body {
 
 .text p {
     margin: 5px 0;
-    font-size: 18px;
+    font-size: 20px;
     color: #666;
 }
   

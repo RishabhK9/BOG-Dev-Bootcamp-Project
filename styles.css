@@ -10,8 +10,8 @@ body {
 
     .container {
         position: absolute;
-        width: 600px;
-        height: 300px;
+        width: 700px;
+        height: 400px;
         background:none;
         top: 50%;
         left: 50%;
@@ -92,7 +92,7 @@ body {
 
 .text p {
     margin: 5px 0;
-    font-size: 15px;
+    font-size: 18px;
     color: #666;
 }
   

@@ -60,6 +60,7 @@ body {
     background-color: #E0B0FF; 
     justify-content: center;
     align-items: center;
+    width: 80%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 4px;
@@ -70,20 +71,20 @@ body {
 .top-line,
 .bottom-line {
     height: 2px;
-    background-color: #000; /* Black */
+    background-color: #000;
     position: relative;
-    left: 15px; /* 15 pixels from the left */
-    right: 15px; /* 15 pixels from the right */
+    left: 10%;
+    right: 10%;
 }
 
 .top-line {
-    top: -5%; /* 15 pixels from the top */
-    width: calc(100% - 50px); /* Adjusted width */
+    top: -5%;
+    width: calc(100% - 50px);
 }
 
 .bottom-line {
-    bottom: -15%; /* 15 pixels from the bottom */
-    width: calc(100% - 50px); /* Adjusted width */
+    bottom: -15%;
+    width: calc(100% - 50px);
 }
 
 .text h1 {

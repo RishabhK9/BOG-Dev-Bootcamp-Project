@@ -25,6 +25,9 @@ body {
     transform-style: preserve-3d;
     transition: all 0.6s ease;
     cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
     .front {
@@ -58,9 +61,7 @@ body {
 
 .purple-box {
     border: 2px solid #8763d4; 
-    background-color: #E0B0FF; 
-    justify-content: center;
-    align-items: center;
+    background-color: #E0B0FF;
     width: 80%;
     left: 10%; right: 10%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

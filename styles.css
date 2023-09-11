@@ -40,7 +40,7 @@ body {
         background: #8763d4;
         color: white;
         text-align: center;
-        display:flex;
+        /* display:flex; */
     }
 
     .back {
@@ -91,7 +91,7 @@ body {
 }
 
 .text h1 {
-    margin: 0;
+    margin: 10px 0;
     font-size: 24px;
     color: #333;
 }

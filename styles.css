@@ -84,7 +84,7 @@ body {
 }
 
 .bottom-line {
-    bottom: -5%;
+    bottom: 5%;
     width: calc(100% - 50px);
 }
 

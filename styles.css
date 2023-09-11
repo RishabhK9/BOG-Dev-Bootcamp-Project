@@ -58,10 +58,10 @@ body {
 .purple-box {
     border: 2px solid #8763d4; 
     background-color: #E0B0FF; 
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     width: 80%;
-    left: 20%;
+    left: 10%; right: 10%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 4px;

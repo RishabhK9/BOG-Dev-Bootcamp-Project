@@ -84,7 +84,7 @@ body {
 }
 
 .bottom-line {
-    bottom: -15%;
+    bottom: -5%;
     width: calc(100% - 50px);
 }
 
@@ -96,7 +96,7 @@ body {
 
 .text p {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 30px;
     color: #666;
 }
   

@@ -25,8 +25,8 @@ body {
     transform-style: preserve-3d;
     transition: all 0.6s ease;
     cursor: pointer;
-    display:flex;
-    justify-content: center;
+    /* display:flex;
+    justify-content: center; */
     /* align-items: center; */
 }
 

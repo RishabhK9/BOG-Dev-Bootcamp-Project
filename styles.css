@@ -37,8 +37,8 @@ body {
         background: #8763d4;
         color: white;
         text-align: center;
-        /* display:flex; */
-        justify-content: center;
+        display:flex;
+        /* justify-content: center; */
         align-items: center;
     }
 

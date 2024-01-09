@@ -5,4 +5,3 @@ card.addEventListener('click', handleFlip);
 function handleFlip(){
     card.classList.toggle('flipCard');
 }
-

@@ -17,7 +17,6 @@ noButton.addEventListener('click', () => {
 })
 
 noButton.addEventListener('mousemove', () => {
-    console.log("Hovered " + noButton.style.left)
     if (noButton.style.left == 65 + '%') {
         console.log("activated " + noButton.style.left);
         noButton.style.left =  35 + '%';

@@ -18,13 +18,13 @@ noButton.addEventListener('click', () => {
 
 noButton.addEventListener('mousemove', () => {
     console.log("Hovered " + noButton.style.left)
-    if (noButton.style.left == 30 + '%') {
+    if (noButton.style.left == 65 + '%') {
         console.log("activated " + noButton.style.left);
-        noButton.style.left =  -2 + '%';
-        yesButton.style.left = 30 + '%';
+        noButton.style.left =  35 + '%';
+        yesButton.style.left = 65 + '%';
     } else {
         console.log("deactivated " + noButton.style.left);
-        noButton.style.left = 30 + '%';
-        yesButton.style.left = -2 + '%';
+        noButton.style.left = 65 + '%';
+        yesButton.style.left = 35 + '%';
     }
 })

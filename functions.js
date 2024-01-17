@@ -9,17 +9,21 @@ function handleFlip(){
 }
 
 yesButton.addEventListener('click', () => {
-    alert('I look forward to working with you!')
+    alert('Appreciate it! I look forward to working with you!')
 })
 
-noButton.addEventListener('mouseover', () => {
-    console.log("Hovered")
+noButton.addEventListener('click', () => {
+    alert('Well why\'d you do that?!?!')
+})
+
+noButton.addEventListener('mousemove', () => {
+    console.log("Hovered " + noButton.style.left)
     if (noButton.style.left == 30 + '%') {
-        console.log("activated" + noButton.style.left);
+        console.log("activated " + noButton.style.left);
         noButton.style.left =  -2 + '%';
         yesButton.style.left = 30 + '%';
     } else {
-        console.log("deactivated" + noButton.style.left);
+        console.log("deactivated " + noButton.style.left);
         noButton.style.left = 30 + '%';
         yesButton.style.left = -2 + '%';
     }
